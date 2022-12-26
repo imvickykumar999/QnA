@@ -43,3 +43,61 @@
     - Enclosing namespaces– These namespaces are at the higher level or outer function.
     - Local namespaces– These namespaces are at the local or inner function.
 
+-------------------------------
+
+    What is the difference between .py and .pyc files?
+
+    The .py files are the python source code files. 
+    While the .pyc files contain the bytecode of the python files. 
+    .pyc files are created when the code is imported from some other source. 
+    The interpreter converts the source .py files to .pyc files which helps by saving time.
+
+-----------------------------
+
+    What are Literals in Python and explain about different Literals
+
+    A literal in python source code represents a fixed value for primitive data types. 
+    There are 5 types of literals in python-
+
+        String literals–
+        A string literal is created by assigning some text enclosed in single or double quotes to a variable. 
+        To create multiline literals, assign the multiline text enclosed in triple quotes. Eg.name=”Tanya”
+
+        A character literal– 
+        It is created by assigning a single character enclosed in double quotes. Eg. a=’t’
+
+        Numeric literals- 
+        It include numeric values that can be either integer, floating point value, or a complex number. Eg. a=50
+
+        Boolean literals– 
+        These can be 2 values- either True or False.
+
+        Literal Collections– 
+            These are of 4 types-
+
+            a) List collections-Eg. a=[1,2,3,’Amit’]
+            b) Tuple literals- Eg. a=(5,6,7,8)
+            c) Dictionary literals- Eg. dict={1: ’apple’, 2: ’mango, 3: ’banana’}
+            d) Set literals- Eg. {“Tanya”, “Rohit”, “Mohan”}
+
+    Special literal- Python has 1 special literal None which is used to return a null variable.
+
+------------------------------------
+
+    How is memory managed in Python?
+
+    Memory is managed in Python in the following ways:
+
+        Memory management in python is managed by Python private heap space. 
+        All Python objects and data structures are located in a private heap. 
+
+        The programmer does not have access to this private heap. 
+        The python interpreter takes care of this instead.
+
+        The allocation of heap space for Python objects is done by Python’s memory manager. 
+        The core API gives access to some tools for the programmer to code.
+
+        Python also has an inbuilt garbage collector, which recycles all the 
+        unused memory and so that it can be made available to the heap space.
+
+----------------------------------
