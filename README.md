@@ -101,3 +101,9 @@
         unused memory and so that it can be made available to the heap space.
 
 ----------------------------------
+
+    What is the property decorator in Python?
+
+    The @property is a built-in decorator for the property() function in Python. 
+    It is used to give "special" functionality to certain methods to make them act as 
+    getters, setters, or deleters when we define properties in a class.
