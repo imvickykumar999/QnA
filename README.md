@@ -67,7 +67,8 @@
         It is created by assigning a single character enclosed in double quotes. Eg. a=’t’
 
         Numeric literals- 
-        It include numeric values that can be either integer, floating point value, or a complex number. Eg. a=50
+        It include numeric values that can be either integer, floating point value, or a complex number. 
+        Eg. a=50
 
         Boolean literals– 
         These can be 2 values- either True or False.
